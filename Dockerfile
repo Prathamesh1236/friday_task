@@ -1,6 +1,4 @@
-FROM ubuntu:20.04
-
-RUN apt-get update && apt-get install -y apache2
+FROM ubuntu/apache2
 
 RUN  rm /var/www/html/index.html
 
